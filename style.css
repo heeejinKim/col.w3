@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One|Song+Myung');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:700|Noto+Sans+KR|Playfair+Display:700');
+
+html, body {
+    overflow: hidden;
+    background-color: #495057;
+}
+
+canvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: fixed;
+    left: 20%;
+}
+
+div.txt {
+    top: 1rem;
+    width: 30rem;
+    margin: 2rem auto;
+}
+
+div.txt2 {
+   margin: 6rem auto;
+   margin-top: 10rem;
+   width: 24.5rem;
+}
+
+hr {
+    border: solid 0.8px #212529;
+    margin-bottom: -1rem;
+    margin-top: 3rem;
+}
+
+h1 {
+    font-family: 'Song Myung', serif;
+    font-size: 10rem;
+    line-height: 30%;
+    color: #212529;
+}
+
+h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 3rem;
+    margin-top: -3.5rem;
+    margin-left: 1rem;
+    color: #212529;
+    line-height: 110%;
+}
+
+p {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 0.9rem;
+    line-height: 160%;
+    color: #212529;
+    letter-spacing: -0.3px;
+    white-space: pre-line;
+}
+
+p.eng {
+    font-family: 'Merriweather', serif;
+    font-size: 0.9rem;
+    line-height: 100%;
+    color: #212529;
+}
